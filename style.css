@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+}
+
+.header {
+    flex-direction: column;
+    background-color: #1f2937;
+    font-family: "Arial" , sans-serif;
+    color: white;
+    padding: 8px;
+    height: 450px;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.Hero-main-text,
+.navigation {
+    font-size: 18px;
+    color: #e5e7ebcf;
+}
+.Header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.top-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -30px;
+    align-items: baseline;
+}
+
+.navigation {
+    flex-direction: row;
+}
+
+.Hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 8px
+    }
+
+.content {
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.sign-up {
+    
+    background-color: #3882F6;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border-style: hidden;
+    font-size: 15px;
+    font-family: "Roboto" , sans-serif;
+    
+}
+
+.img {
+    width: 400px;
+    background-color: rgb(116, 117, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
