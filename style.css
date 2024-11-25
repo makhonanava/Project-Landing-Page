@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 ul {
@@ -89,4 +90,66 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.image {
+    height: 120px;
+    border: solid #3882F6;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 400px;
+}
+
+.innformation-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 30px
+}
+
+.illustrations {
+    margin-top: -30px;
+  width: 600px;
+  height: 250px;
+  gap: 40px;
+  justify-content: center;
+}
+
+.squares {
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.subtext {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(102, 100, 100)
+}
+
+article {
+    background-color: #E5E7EB;
+    width: 100vw;
+    padding: 50px;
+}
+
+.quote {
+    flex-direction: column;
+    width: 800px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    
+}
+
+.author {
+    font-size: 25px;
+    align-self: flex-end;
 }
